@@ -1,0 +1,35 @@
+$
+\begin{cases}
+3x-y+6=0\\
+x-y+4=0\\
+x+2y=0\end{cases}
+$
+Найдём направляющие векторы для каждой из прямых:
+$
+1) 3(x+2)=y\\
+\frac{x+2}{1}=\frac{y}{3} \Rightarrow \vec p_{1}=(1,3)\\
+2)x+4=y \Rightarrow \vec p_{2} = (1,1)\\
+3)x =-2y;\ -\frac{x}{2}=\frac{y}{1} \Rightarrow \vec p_{3}=(-2,1)
+$
+Тогда по формуле $\cos\alpha=\frac{\vec a \cdot \vec b}{\overline{|a|}\overline{|a|}}:\\
+
+\cos\alpha_{1}=\frac{1+3}{\sqrt{10}\sqrt{2}}=\frac{2}{\sqrt{5}}\\
+\cos\alpha_{2}=\frac{-2+3}{\sqrt{5\cdot10}}=\frac{1}{5\sqrt{2}}\\
+\cos\alpha_{3}=\frac{-2+1}{\sqrt{2*5}}=-\frac{1}{\sqrt{10}}
+$
+Тогда:
+$
+\alpha_{1}=\arccos{\frac{2}{\sqrt{5}}};\ 
+\alpha_{2}=\arccos{\frac{1}{5\sqrt{2}}};\
+\alpha_{3^*}=\arccos{-\frac{1}{\sqrt{10}}};\\
+$
+Заметим, что коэффициент наклона прямой, заданной $3x-y+6=0$ больше, чем у остальных прямых, поэтому между прямыми, заданными уравнениями $x-y+4=0, x+2y=0$ нужно брать острый угол 
+$
+\alpha_{3}=\arccos{\frac{1}{\sqrt{10}}};\\
+$
+Ответ:
+$
+\alpha_{1}=\arccos{\frac{2}{\sqrt{5}}};\ 
+\alpha_{2}=\arccos{\frac{1}{5\sqrt{2}}};\
+\alpha_{3}=\arccos{\frac{1}{\sqrt{10}}};
+$
