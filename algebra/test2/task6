@@ -1,0 +1,77 @@
+$
+\left(\begin{array}{ccccc|c}
+1&2&3&-2&1&4\\
+3&6&5&-4&3&5\\
+1&2&7&-4&1&11\\
+2&4&2&-3&3&2\end{array}\right) \sim
+
+\left(\begin{array}{ccccc|c}
+1&2&3&-2&1&4\\
+1&2&7&-4&1&11\\
+2&4&2&-3&3&2\\
+3&6&5&-4&3&5\end{array}\right) \sim \\
+\sim
+
+\begin{array}{c}
+s_{2}-s{1}\\
+s_{3}-2s_{1}\\
+s_{4}-3s_{1}\end{array}
+
+\left(\begin{array}{ccccc|c}
+1&2&3&-2&1&4\\
+0&0&4&-2&0&7\\
+0&0&-4&1&1&-6\\
+0&0&-4&2&0&-7\end{array}\right) \sim
+
+\begin{array}{c}
+s_{3}+s_{2}\\
+s_{4}+s_{2}\end{array}
+
+\left(\begin{array}{ccccc|c}
+1&2&3&-2&1&4\\
+0&0&4&-2&0&7\\
+0&0&0&-1&1&1\\
+0&0&0&0&0&0\end{array}\right) \sim \\
+\sim 
+
+\begin{array}{c}
+\frac{s_{2}}{4} \end{array}
+
+\left(\begin{array}{ccccc|c}
+1&2&3&-2&1&4\\
+0&0&1&-\frac{1}{2}&0&\frac{7}{4}\\
+0&0&0&-1&1&1\\
+0&0&0&0&0&0\end{array}\right) \sim 
+
+\begin{array}{c}
+s_{1}+s_{3}\end{array}
+
+\left(\begin{array}{ccccc|c}
+1&2&3&-1&0&3\\
+0&0&1&-\frac{1}{2}&0&\frac{7}{4}\\
+0&0&0&-1&1&1\\
+0&0&0&0&0&0\end{array}\right) \sim \\
+\sim
+
+\begin{array}{c}
+s_{1}-3s_{2}\end{array}
+
+\left(\begin{array}{ccccc|c}
+1&2&0&\frac{1}{2}&0&-\frac{9}{4}\\
+0&0&1&-\frac{1}{2}&0&\frac{7}{4}\\
+0&0&0&-1&1&1\\
+0&0&0&0&0&0\end{array}\right) \Rightarrow
+
+\begin{cases}
+x_{1}+2x_{2}+\frac{1}{2}x_{4}=-\frac{9}{4}\\
+x_{3}-\frac{1}{2}x_{4}=\frac{7}{4}\\
+x_{4}-x_{5}=-1\end{cases} \Rightarrow \\
+
+\Rightarrow
+\begin{cases}
+x_{1}=-\frac{7}{4}-2x_{2}-\frac{1}{2}x_{5}\\
+x_{2}=x_{2}\\
+x_{3}=\frac{5}{4}+\frac{1}{2}x_{5}\\
+x_{4}=-1+x_{5}\\
+x_{5}=x_{5}\end{cases}
+$
