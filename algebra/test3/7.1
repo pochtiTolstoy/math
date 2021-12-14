@@ -1,0 +1,58 @@
+$
+A=\left(\begin{array}{ccc}
+3&0&1\\
+0&4&0\\
+1&0&3\end{array}\right)\\
+\left|\begin{array}{ccc}
+3-\lambda&0&1\\
+0&4-\lambda&0\\
+1&0&3-\lambda\end{array}\right|=-\lambda^3+10\lambda^2-32\lambda+32=0\\
+\lambda_{1}=2;\ Кр-1;\\
+\lambda_{2}=4;\ Кр-2;\\
+
+\lambda_{1}=2:
+\left(\begin{array}{ccc}
+1&0&1\\
+0&2&0\\
+1&0&1\end{array}\right) \sim 
+\left(\begin{array}{ccc}
+1&0&1\\
+0&1&0\\
+0&0&0\end{array}\right) \Rightarrow
+\begin{cases}
+x_{1}=-x_{3}\\
+x_{2}=0\\
+x_{3}=x_{3}\end{cases} \Rightarrow \vec a_{1} = (-1, 0 1)\\
+
+\lambda_{2}=4:
+\left(\begin{array}{ccc}
+-1&0&1\\
+0&0&0\\
+1&0&-1\end{array}\right) \sim 
+\left(\begin{array}{ccc}
+1&0&-1\\
+0&0&0\\
+0&0&0\end{array}\right) \Rightarrow
+\begin{cases}
+x_{1}=x_{3}\\
+x_{2}=x_{2}\\
+x_{3}=x_{3}
+\end{cases} \Rightarrow \vec a_{2} = (1, 0 1)\  \vec a_{3} = (0,1,0) (кр-2)\\
+\vec a_{1} \cdot \vec a_{2} = 0 \Rightarrow \vec a_{1} \perp \vec a_{2}\\
+\vec a_{1} \cdot \vec a_{3} = 0 \Rightarrow \vec a_{1} \perp \vec a_{3}\\
+\vec a_{2} \cdot \vec a_{3} = 0 \Rightarrow \vec a_{2} \perp \vec a_{3}\\
+Нормирование:
+|\vec a_{1}|=\sqrt{1+1}=\sqrt{2}\\
+|\vec a_{2}|=\sqrt{1+1}=\sqrt{2}\\
+|\vec a_{3}|=1\\
+
+\vec a_{1}=(-\frac{1}{\sqrt{2}}, 0, \frac{1}{\sqrt{2}})\\
+\vec a_{2}=(\frac{1}{\sqrt{2}}, 0, \frac{1}{\sqrt{2}})\\
+\vec a_{3}=(0, 1, 0)\\
+P=\left(\begin{array}{ccc}
+-\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} & 0\\
+0 & 0 & 1\\
+\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} & 0\end{array}\right)\\
+
+f(y_{1},y_{2},y_{3})=2y_{1}^2+4y_{2}^2+4y_{3}^2
+$
