@@ -1,42 +1,62 @@
 $
-A=\left(\begin{array}{cc}
--1 & 1\\
-1 & -1\end{array}\right)\\
-\left|\begin{array}{cc}
--1-\lambda & 1\\
-1 & -1-\lambda\end{array}\right|=\lambda^2+2\lambda=0\\
-\lambda_{1}= 0\\
-\lambda_{2}=-2\\
+f(x_{1},x_{2},x_{3})=-x_{1}^2+2x_{1}x_{3}-3x_{3}^2\\
+A=\left(\begin{array}{ccc}
+-1 & 0 & 1\\
+0 & 0 & 0\\
+1 & 0 & -1\end{array}\right)\\
+\left|\begin{array}{ccc}
+-1-\lambda & 0 & 1\\
+0 & 0-\lambda & 0\\
+1 & 0 & -1-\lambda\end{array}\right|=-\lambda^3-2\lambda^2=0\\
+\lambda_{1}= 0; \ кр-2;\\
+\lambda_{2}= -2; \ кр-1;\\
 
-\lambda_{1} = 0:\\
-\left(\begin{array}{cc}
--1 & 1\\
-1 & -1\end{array}\right) \sim 
-\left(\begin{array}{cc}
--1 & 1\\
-0 & 0\end{array}\right) \Rightarrow \begin{cases}
-x_{1}=x_{2}\\
-x_{2}=x_{2}\end{cases} \Rightarrow \vec a_{1} = (1,1)\\
+\lambda_{1}= 0;\\
+\left(\begin{array}{ccc}
+-1 & 0 & 1\\
+0 & 0 & 0\\
+1 & 0 & -1\end{array}\right) \sim 
+\left(\begin{array}{ccc}
+1 & 0 & -1\\
+0 & 0 & 0\\
+0 & 0 & 0\end{array}\right) \Rightarrow\\
+\begin{cases}
+x_{1}=x_{3}\\
+x_{2}=x_{2}\\
+x_{3}=x_{3}\end{cases} \Rightarrow \vec a_{1}=(1,0,1); \ \vec a_{2}=(0,1,0); (кр-2)\\
 
-\lambda_{2}=-2:\\
-\left(\begin{array}{cc}
-1 & 1\\
-1 & 1\end{array}\right) \sim 
-\left(\begin{array}{cc}
-1 & 1\\
-0 & 0\end{array}\right) \Rightarrow \begin{cases}
-x_{1}=-x_{2}\\
-x_{2}=x_{2}\end{cases} \Rightarrow \vec a_{2} = (-1, 1)\\
+\lambda_{2}= -2;\\
+\left(\begin{array}{ccc}
+1 & 0 & 1\\
+0 & 2 & 0\\
+1 & 0 & 1\end{array}\right) \sim 
+\left(\begin{array}{ccc}
+1 & 0 & 1\\
+0 & 1 & 0\\
+0 & 0 & 0\end{array}\right) \Rightarrow\\
+\begin{cases}
+x_{1}=-x_{3}\\
+x_{2}=0\\
+x_{3}=x_{3}\end{cases} \Rightarrow \vec a_{3}=(-1,0,1);\\
+\\
 
-\vec a_{1} \cdot \vec a_{2} = 0 \Rightarrow \vec a_{1} \perp \vec a_{2}\\
-Нормирование:
-|\vec a_{1}| = \sqrt{2}\\
-|\vec a_{2}| = \sqrt{2}\\
-\vec a_{1} = (\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}})\\
-\vec a_{2} = (-\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}})\\
-P=\left(\begin{array}{cc}
-\frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{2}}\\
-\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\end{array}\right)\\
-f(y_{1},y_{2}) = 0 \cdot y_{1}^2 -2 y_{2}^2
+\vec a_{1} \cdot \vec a_{2} = 0 \Rightarrow \vec a_{1} \perp \vec a_{2};\\
+\vec a_{1} \cdot \vec a_{3} = 0 \Rightarrow \vec a_{1} \perp \vec a_{3};\\
+\vec a_{2} \cdot \vec a_{3} = 0 \Rightarrow \vec a_{2} \perp \vec a_{3};\\
+$
+$
+Нормирование:\\
+|\vec a_{1}|=\sqrt{1+1}=\sqrt{2}\\
+|\vec a_{2}|=1\\
+|\vec a_{3}|=\sqrt{1+1}=\sqrt{2}\\
 
+\vec a_{1}=(\frac{1}{\sqrt{2}}, 0, \frac{1}{\sqrt{2}})\\
+\vec a_{2}=(0, 1, 0)\\
+\vec a_{3}=(-\frac{1}{\sqrt{2}}, 0, \frac{1}{\sqrt{2}})\\
+
+P=\left(\begin{array}{ccc}
+\frac{1}{\sqrt{2}} & 0 & -\frac{1}{\sqrt{2}}\\
+0 & 1 & 0\\
+\frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}}\end{array}\right)\\
+f(y_{1},y_{2},y_{3})=0 \cdot y_{1}^2 +  0 \cdot y_{2}^2 -2y_{3}^2
 $
