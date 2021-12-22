@@ -1,0 +1,31 @@
+$
+\left|\begin{array}{ccccc}
+x+1 & x & x & \cdots & x\\
+x & x+2 & x & \cdots & x\\
+x &x & x+3 & \cdots &x\\
+\cdots & \cdots & \cdots & \cdots & \cdots\\
+x&  x & x & \cdots & x+n\end{array}\right| \sim 
+
+\left|\begin{array}{ccccc}
+1 & 0 & 0 & \cdots & -n\\
+0 & 2 & 0 & \cdots & -n\\
+0 &0 & 3 & \cdots &-n\\
+\cdots & \cdots & \cdots & \cdots & \cdots\\
+x&  x & x & \cdots & x+n\end{array}\right|=\\
+=x\left|\begin{array}{cccc}
+0 & 0 & \cdots & -n \\
+2 & 0 & \cdots & -n \\
+0 & 3 & \cdots & -n \\
+\cdots & \cdots & \cdots & \cdots \\
+0 & 0 & \cdots & -n \end{array}\right|+(-1)^{(n-1)}
+\left|\begin{array}{cccc}
+2 & 0 & \cdots & -n\\
+0 & 3 & \cdots & -n\\
+0 & 0 & \cdots & -n\\
+\cdots & \cdots & \cdots & \cdots\\
+x & x & \cdots & x+n\end{array}\right|=\\
+=x(1 \cdot 2 \cdot ... \cdot n)+1(1 \cdot 2 \cdot ... \cdot n)+x(1 \cdot 3 \cdot 4 \cdot ... \cdot n) + x(1 \cdot 2 \cdot 3 \cdot 5 \cdot ... \cdot n) + ... + x(1 \cdot 2 \cdot ... \cdot (n-1))=\\
+=(1 \cdot 2 \cdot ... \cdot n)(1+x+\frac{x}{2}+\frac{x}{3}+...+\frac{x}{n})
+
+
+$
