@@ -1,0 +1,17 @@
+Достаточность:
+$
+A \cup B \subseteq C \Rightarrow\\
+A \subseteq C\\
+B \subseteq C\\
+C \backslash A = (A \backslash C) \cup (C \backslash A )\cup (B \backslash A)\\
+C \backslash A = \emptyset \cup (C \backslash A) \cup (B \backslash A)$
+Заметим, что $B \backslash A \subseteq C \backslash A$
+Значит условия $A \cup B \subseteq C$ достаточно, чтобы выполнялось $C \backslash A = (A \backslash C) \cup (C \backslash A )\cup (B \backslash A)$ 
+
+Необходимость докажем от противного.
+Пусть условие $A \cup B \subseteq C$ не необходимо, тогда:
+$
+1) \exists X \in A: X \notin C \Rightarrow X \in (A \backslash C); X \notin (C \setminus A) \Rightarrow C \backslash A = (A \backslash C) \cup (C \backslash A )\cup (B \backslash A) - Неверно\\
+2) \exists X \in (B \setminus A); X \notin (C \setminus A) \Rightarrow C \backslash A = (A \backslash C) \cup (C \backslash A )\cup (B \backslash A) - Неверно\\
+$
+Значит условие $A \cup B \subseteq C$ - необходимо
