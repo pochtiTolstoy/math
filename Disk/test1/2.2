@@ -1,0 +1,28 @@
+Достаточность:
+$
+A \subseteq (B \setminus C) \Rightarrow (A \setminus B) = \emptyset \Rightarrow\\
+\Rightarrow Требуется\ доказать\ (B \setminus A) = (B \setminus A) \cup (C \cap B)\ что\ эквивалентно:\ (C \cap B) \subseteq B \setminus A\\$
+Это верно из условия:
+$
+\forall Y \in (C \cap B): Y \in B, y \notin A, т.к.\ \\
+A \subseteq (B \setminus C), \forall X \in A, X \notin C;
+$
+Значит условия $A \subseteq (B \setminus C)$ достаточно для того, чтобы выполнялось $A \Delta B = (B \setminus A)\cup (C \cap B)$
+
+Необходимость докажем от противного, пусть условие не неоюходимо:
+Расммотрим три случая:
+$
+1) 
+
+A \cap C \neq \emptyset\Rightarrow \exists X \in A : X \in C, X \notin B\setminus A\ or\ X \notin (A \setminus B)\\
+\Rightarrow A \Delta B = (B \setminus A)\cup (C \cap B) - неверно\\
+2) \forall X \in A: X \notin C \Rightarrow \exists Y \in (C \cap B): Y \notin (A \setminus B) \Rightarrow\\
+A \Delta B = (B \setminus A)\cup (C \cap B) - неверно\\
+3) 
+\begin{cases}
+A \subseteq C\\
+A \cap B = \emptyset\\
+\end{cases} \Rightarrow \exists Y \in (C \cap B): Y \notin (A \setminus B) \Rightarrow\\
+A \Delta B = (B \setminus A)\cup (C \cap B) - неверно\\
+$
+Значит условие $A \subseteq (B \setminus C)$ необходимо
