@@ -1,0 +1,42 @@
+$
+\begin{cases}
+A \Delta X = C \setminus B\\
+A \cup X = B \cap X\\
+A \subseteq B \subseteq C\end{cases} \Rightarrow\\
+
+\begin{cases}
+(1)(A \Delta X) \Delta (C \setminus B) = \emptyset\\
+(2)(A \cup X) \Delta (B \cap X) = \emptyset\\
+A \subseteq B \subseteq C\end{cases}\\
+
+(1):\ (A \Delta X) \Delta (C \setminus B) = \emptyset\\
+[(A \setminus X) \cup (X \setminus A)] \Delta (C \setminus B) = \emptyset\\
+[(\overline{C} \cup B) \cap A \cap \overline{X}] \cup [(\overline{C} \cup B) \cap X \cap \overline{A}] \cup [(\overline{A} \cup X) \cap (\overline{X} \cup A) \cap (C \cap \overline{B})] = \emptyset\\
+
+
+[(\overline{C} \cup B) \cap A \cap \overline{X}] \cup [(\overline{C} \cup B) \cap X \cap \overline{A}] \cup [C \cap \overline{B} \cap \overline{A} \cap \overline{X}] \cup [C \cap \overline{B} \cap A \cap X] = \emptyset\\
+
+(2):
+A \cup X = B \cap X\\
+(A \cup X) \Delta (B \cap X) = \emptyset\\
+[(A \cup X) \setminus (B \cap X)] \cup [(B \cap X) \setminus (A \cup X)] = \emptyset\\
+(A \cap \overline{B}) \cup (\overline{X} \cap A) \cup (X \cap \overline{B}) \cup [B \cap \overline{A} \cap X \cap \overline{X}] = \emptyset\\
+(A \cap \overline{B}) \cup (\overline{X} \cap A) \cup (X \cap \overline{B}) = \emptyset\\
+
+Условие:\\
+A \cap \overline{B} = \emptyset \Rightarrow A \subseteq B
+A \subseteq B \subseteq C\\
+
+X: X \cap [((\overline{C} \cup B)\cap \overline{A}) \cup (C \cap \overline{B} \cap A) \cup \overline{B}] = \emptyset\\
+S = [((\overline{C} \cup B)\cap \overline{A}) \cup (C \cap \overline{B} \cap A) \cup \overline{B}]\\
+X \cap S = \emptyset \Rightarrow X \subseteq \overline{S}\\
+
+\overline{X}: \overline{X}\cap [((\overline{C} \cup B) \cap A)\cup ((\overline{C} \cup B)\cap \overline{A})\cup A] = \emptyset\\
+T = [((\overline{C} \cup B) \cap A)\cup ((\overline{C} \cup B)\cap \overline{A})\cup A]\\
+
+\overline{X} \cap T = \emptyset\Rightarrow T \subseteq X\\
+T \subseteq X \subseteq \overline{S};\\
+A \subseteq B \subseteq C\\
+
+
+$
