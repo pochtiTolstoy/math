@@ -1,0 +1,32 @@
+$
+\begin{array}{c| c| c|  c| c| c| c|}
+x\ y\ z\ & y \downarrow z & x \oplus (y \downarrow z) & \overline{y} \wedge z & \rightarrow & x \vee \overline{y} & \wedge\\
+\hline
+0\ 0\ 0\ & 1 & 1 & 0 & 0 & 1 & 1\\
+0\ 0\ 1\ & 0 & 0 & 1 & 1 & 1 & 1\\
+0\ 1\ 0\ & 0 & 0 & 0 & 1 & 0 & 1\\
+0\ 1\ 1\ & 0 & 0 & 0 & 1 & 0 & 1\\
+1\ 0\ 0\ & 1 & 0 & 0 & 1 & 1 & 1\\
+1\ 0\ 1\ & 0 & 1 & 1 & 1 & 1 & 1\\
+1\ 1\ 0\ & 0 & 1 & 0 & 0 & 1 & 1\\
+1\ 1\ 1\ & 0 & 1 & 0 & 0 & 1 & 1
+\end{array}\\
+1) СДНФ:\\
+\overline{x}\cdot \overline{y} \cdot \overline{z} \vee \overline{x} \cdot \overline{y} \cdot z \vee \overline{x} \cdot y \cdot \overline{z} \vee \overline{x} \cdot y \cdot z \vee x\cdot \overline{y} \cdot \overline{z}\vee \\
+\vee x \cdot \overline{y} \cdot z \vee x \cdot y \cdot \overline{z} \vee xyz\\
+2)СКНФ\ не\ существует\\
+3)Так\ как\ всегда\ выполняется\ f(x,y,z) = 1,\ то\ минимизированная\ ДНФ:\\
+1\\
+4)Полином\ Жегалкина:\\
+f(0,0,0) = \alpha_{0} = 1\\
+f(0,0,1) = \alpha_{0} \oplus \alpha_{3} = 1;\ \alpha_{3}=0\\
+f(0,1,0) = \alpha_{0} \oplus \alpha_{2} = 1;\ \alpha_{2}=0\\
+f(0,1,1) = \alpha_{0} \oplus \alpha_{2} \oplus \alpha_{3} \oplus \alpha_{2}\alpha_{3}= 1;\ \alpha_{2}\alpha_{3}=0\\
+f(1,0,0) = \alpha_{0} \oplus \alpha_{1} = 1;\ \alpha_{1}=0\\
+f(1,0,1) = \alpha_{0} \oplus \alpha_{1} \oplus \alpha_{3} \oplus \alpha_{1}\alpha_{3}= 1;\ \alpha_{1}\alpha_{3}=0\\
+f(1,1,0) = \alpha_{0} \oplus \alpha_{1} \oplus \alpha_{2} \oplus \alpha_{1}\alpha_{2}= 1;\ \alpha_{1}\alpha_{2}=0\\
+f(1,1,1) = \alpha_{0} \oplus \alpha_{1} \oplus \alpha_{2} \oplus \alpha_{3}\oplus \alpha_{1}\alpha_{3} \oplus \alpha_{2}\alpha_{3} \oplus \alpha_{1}\alpha_{2} \oplus \alpha_{1}\alpha_{2}\alpha_{3}= 1;\ \alpha_{1}\alpha_{2}\alpha_{3}=0\\
+Полином: 1\\
+
+
+$
