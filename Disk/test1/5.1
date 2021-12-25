@@ -1,15 +1,16 @@
 $
 1) Не\ рефлексивно:\ \forall X: \nexists A(x,x)\\
-Иррефлексивно\\
+Иррефлексивно:\ \forall X: \nexists A(x,x)\\
 Симметрично: \exists P(x,y) \Rightarrow \exists P(y,x)\\
 Не\ антисимметрично\\
-Не\ транзитивно\\
+Не\ транзитивно: \nexists (x,y): \exists (x,z) \in P, (z, y) \in P\\
 
-2) (x, z) \in p \circ p \Rightarrow (x, y) \in P, (y, z) \in P\Rightarrow Противоречие\ с\ логикой\ задачи\\
-p \circ p^{-1} = p\\
-
+2.1) p \circ p = ((x,y)| \exists z \in A: (x,z) \in P, (z,y) \in P) \Rightarrow\\
+\Rightarrow x=y;\ т.к.\ отношение\ симметрично\ и\ (x,z) \in P\ и\ (z, y) \in P;\\
+Значит\ p \circ p = (x, x)\\
+2.2)p \circ p^{-1}=((x,y)| \exists z \in A: (x,z) \in P^{-1}, (z,y) \in P) \Rightarrow\\
+\Rightarrow y=x \Rightarrow p \circ p^{-1} = p \circ p = (x, x)\\
 3) Не\ отношение\ эквивалентности\ (не\ транзитивно)\\
 4) Не\ отношение\ частичного\ порядка\ (не\ транзитивно)\\
 Не\ отношение\ линейного\ порядка\ (не\ транзитивно)\\
 $
-
