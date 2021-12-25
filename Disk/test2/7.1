@@ -1,0 +1,32 @@
+$
+\begin{array}{c| c| c|  c| c| c| c|}
+x_{1}\ x_{2}\ x_{3}\ & x_{1} \wedge \overline{x_{2}} & \overline{x_{2}} \wedge x_{3} & x_{2} \wedge x_{3} & x_{1} \rightarrow x_{2} \wedge x_{3} & (1) \vee & (2) \vee\\
+\hline
+0\ 0\ 0\ & 0 & 0 & 0 & 1 & 0 & 1\\
+0\ 0\ 1\ & 0 & 1 & 0 & 1 & 1 & 1\\
+0\ 1\ 0\ & 0 & 0 & 0 & 1 & 0 & 1\\
+0\ 1\ 1\ & 0 & 0 & 1 & 1 & 0 & 1\\
+1\ 0\ 0\ & 1 & 0 & 0 & 0 & 1 & 1\\
+1\ 0\ 1\ & 1 & 1 & 0 & 0 & 1 & 1\\
+1\ 1\ 0\ & 0 & 0 & 0 & 0 & 0 & 0\\
+1\ 1\ 1\ & 0 & 0 & 1 & 1 & 0 & 1
+\end{array}\\
+1)СДНФ:\\
+\overline{x_{1}}\overline{x_{2}}\overline{x_{3}} \vee \overline{x_{1}}\overline{x_{2}}x_{3} \vee \overline{x_{1}}x_{2}\overline{x_{3}} \vee \overline{x_{1}}x_{2}x_{3} \vee x_{1}\overline{x_{2}}\overline{x_{3}} \vee x_{1}\overline{x_{2}}x_{3} \vee x_{1}x_{2}x_{3}\\
+2)СКНФ:\\
+\overline{x_{1}} \vee \overline{x_{2}} \vee x_{3}\\
+3)Минимизированная\ ДНФ:\\
+(рис.\ cube.svg)\\
+\overline{x_{1}} \vee \overline{x_{2}} \vee x_{3}\\
+Полином\ Жегалкина:\\
+f(0, 0, 0) = \alpha_{0} = 1\\
+f(0, 0, 1) = \alpha_{0} \oplus \alpha_{3} = 1; \alpha_{3}=0\\
+f(0, 1, 0) = \alpha_{0} \oplus \alpha_{2} = 1; \alpha_{2}=0\\
+f(0, 1, 1) = \alpha_{0} \oplus \alpha_{2} \oplus \alpha_{3} \oplus \alpha_{2}\alpha_{3}= 1; \alpha_{2}\alpha_{3}=0\\
+f(1,0,0) = \alpha_{0} \oplus \alpha_{1} = 1; \alpha_{1}=0\\
+f(1,0,1) = \alpha_{0} \oplus \alpha_{1} \oplus \alpha_{3} \oplus \alpha_{1}\alpha_{3} = 1; \alpha_{1}\alpha_{3}=0\\
+f(1,1,0) = \alpha_{0} \oplus \alpha_{1} \oplus \alpha_{2} \oplus \alpha_{1}\alpha_{2} = 0; \alpha_{1}\alpha_{2}=1\\
+f(1, 1, 1) = \alpha_{0} \oplus \alpha_{1} \oplus \alpha_{2} \oplus \alpha_{1}\alpha_{2} \oplus \alpha_{1}\alpha_{3} \oplus \alpha_{2}\alpha_{3} \oplus \alpha_{1}\alpha_{2}\alpha_{3} = 1; \alpha_{1}\alpha_{2}\alpha_{3}=1\\
+Полином:\ 1 \oplus x_{1}x_{2} \oplus x_{1}x_{2}x_{3}\\
+ 
+$
