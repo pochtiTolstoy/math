@@ -1,42 +1,117 @@
 $
 \begin{cases}
-A \Delta X = C \setminus B\\
-A \cup X = B \cap X\\
-A \subseteq B \subseteq C\end{cases} \Rightarrow\\
+(1) A \Delta X = C \setminus B\\
+(2) A \cup X = B \cap X\\
+A \subseteq B \subseteq C\end{cases} \Rightarrow
 
 \begin{cases}
-(1)(A \Delta X) \Delta (C \setminus B) = \emptyset\\
-(2)(A \cup X) \Delta (B \cap X) = \emptyset\\
+(1) (A \Delta X) \Delta (C \setminus B) = \emptyset\\
+(2) (A \cup X) \Delta (B \cap X) = \emptyset\\
 A \subseteq B \subseteq C\end{cases}\\
+Приведём\ (1)\ уравнение\ в\ нужный\ вид:\\
+(A \Delta X) \Delta (C \setminus B) = \emptyset\\
+\left[(A \cap \overline{X}) \cup (X \cap \overline{A})\right] \Delta (C \setminus B) = \emptyset\\
+\left[\left[(A \cap \overline{X}) \cup (X \cap \overline{A})\right]\setminus(C \setminus B)\right] \cup \left[(C \setminus B) \setminus \left[(A \cap \overline{X}) \cup (X \cap \overline{A})\right]\right] = \emptyset\\
 
-(1):\ (A \Delta X) \Delta (C \setminus B) = \emptyset\\
-[(A \setminus X) \cup (X \setminus A)] \Delta (C \setminus B) = \emptyset\\
-[(\overline{C} \cup B) \cap A \cap \overline{X}] \cup [(\overline{C} \cup B) \cap X \cap \overline{A}] \cup [(\overline{A} \cup X) \cap (\overline{X} \cup A) \cap (C \cap \overline{B})] = \emptyset\\
+Пусть\ (1.1)\ -\ это:\  \left[\left[(A \cap \overline{X}) \cup (X \cap \overline{A})\right]\setminus(C \setminus B)\right] = \emptyset\\
 
+А\ (1.2)\ -\ это:\ \left[(C \setminus B) \setminus \left[(A \cap \overline{X}) \cup (X \cap \overline{A})\right]\right] = \emptyset\\
+\\
+$
+$
+Приведём\ в\ нужную\ форму\ (1.1)\\
+\left[\left[(A \cap \overline{X}) \cup (X \cap \overline{A})\right]\setminus(C \setminus B)\right] = \emptyset\\
+\left[\left[(A \cap \overline{X}) \cup (X \cap \overline{A})\right] \cap (\overline{C} \cup B)\right] =\\
+=[(\overline{C} \cup B) \cap A \cap \overline{X}] \cup [(\overline{C} \cup B) \cap X \cap \overline{A}] = \\
+=(A \cap B \cap \overline{X}) \cup (A \cap \overline{C} \cap \overline{X}) \cup (B \cap X \cap \overline{A}) \cup (X \cap \overline{A} \cap \overline{C})
+$
+$
+Приведём\ в\ нужную\ форму\ (1.2):\\
+(C \cap \overline{B}) \cap \overline{\left[(A \cap \overline{X}) \cup (X \cap \overline{A})\right]}=\\
 
-[(\overline{C} \cup B) \cap A \cap \overline{X}] \cup [(\overline{C} \cup B) \cap X \cap \overline{A}] \cup [C \cap \overline{B} \cap \overline{A} \cap \overline{X}] \cup [C \cap \overline{B} \cap A \cap X] = \emptyset\\
+(C \cap \overline{B}) \cap \left[(\overline{A} \cup X) \cap (\overline{X} \cup A) \right]=\\
 
-(2):
-A \cup X = B \cap X\\
+=(C \cap \overline{B}) \cap \left[((\overline{X}\cup A)\cap \overline{A}) \cup ((\overline{X} \cup A) \cap X) \right]=\\
+
+=(C \cap \overline{B}) \cap \left[(\overline{X} \cap \overline{A}) \cup (A \cap \overline{A}) \cup (X \cap \overline{X}) \cup (X \cap A) \right]=\\
+
+=(C \cap \overline{B}) \cap \left[(\overline{A} \cap \overline{X}) \cup (X \cap A)\right] = \\
+= (C \cap \overline{B} \cap \overline{A} \cap \overline{X}) \cup (C \cap \overline{B} \cap X \cap A) = \emptyset\\
+$
+$
+Тогда\ получаем\ первое\ уравнение:\ (1.1) \cup (1.2)=\emptyset\\
+(A \cap B \cap \overline{X}) \cup (A \cap \overline{C} \cap \overline{X}) \cup (B \cap X \cap \overline{A}) \cup \\
+\cup (X \cap \overline{A} \cap \overline{C}) \cup (C \cap \overline{B} \cap \overline{A} \cap \overline{X}) \cup (C \cap \overline{B} \cap X \cap A) = \emptyset\\
+$
+
+$
+Приведём\ (2)\ уравнение\ в\ нужный\ вид:\\
 (A \cup X) \Delta (B \cap X) = \emptyset\\
-[(A \cup X) \setminus (B \cap X)] \cup [(B \cap X) \setminus (A \cup X)] = \emptyset\\
-(A \cap \overline{B}) \cup (\overline{X} \cap A) \cup (X \cap \overline{B}) \cup [B \cap \overline{A} \cap X \cap \overline{X}] = \emptyset\\
-(A \cap \overline{B}) \cup (\overline{X} \cap A) \cup (X \cap \overline{B}) = \emptyset\\
+\left[(A \cup X) \setminus (B \cap X)\right] \cup \left[(B \cap X) \setminus (A \cup X) \right]\\
 
-Условие:\\
-A \cap \overline{B} = \emptyset \Rightarrow A \subseteq B
+Пусть\ (2.1)\ -\ это:\ \left[(A \cup X) \setminus (B \cap X)\right]\\
+Пусть\ (2.2)\ -\ это:\ \left[(B \cap X) \setminus (A \cup X) \right]\\
+$
+$
+Приведём\ в\ нужную\ форму\ (2.1):
+\left[(A \cup X) \setminus (B \cap X)\right]=\\
+\left[(A \cup X) \cap (\overline{B} \cup \overline{X}) \right] = \emptyset\\
+[(A\cup X) \cap \overline{B}] \cup [(A \cup X) \cap \overline{X}] = \emptyset\\
+[(A \cap \overline{B}) \cup (X \cap \overline{B})] \cup [(A \cap \overline{X}) \cup (X \cap \overline{X})]=\\
+=[(A \cap \overline{B}) \cup (X \cap \overline{B})] \cup [(A \cap \overline{X})=\emptyset\\
+Рассмотрим:\ (A \cap \overline{B})=\emptyset\\
+(A \cap \overline{B})=\emptyset \Rightarrow A \subseteq B (Что\ уже\ содержится\ в\ системе:\ A \subseteq B \subseteq C)\\
+Тогда\ (2.1):  (X \cap \overline{B})] \cup [(A \cap \overline{X}) = \emptyset\\
+$
+$
+Приведём\ в\ нужную\ форму\ (2.2):
+(B \cap X) \cap (\overline{A} \cap \overline{X}) = \emptyset\\
+Заметим,\ что: \overline{X} \cap X = 0\\
+Значит\ вся\ конъюнкция\ будет\ равна\ нулю\ и\ уравнение\ (2.2)\\
+не\ имеет\ для\ нас\ смысла, т.к.\ мы\ не\ сможем\ из\ него\ ничего\ вынести\\
+
+
+$
+$
+Тогда\ получаем\ второе\ уравнение\ (2.1) \cup (2.2) = \emptyset\\
+(A \cap \overline{X}) \cup (X \cap \overline{B}) = \emptyset\\
+$
+$
+Получаем\ преобразованную\ систему:\
+\begin{cases}
+(A \cap B \cap \overline{X}) \cup (A \cap \overline{C} \cap \overline{X}) \cup (B \cap X \cap \overline{A}) \cup \\
+\cup (X \cap \overline{A} \cap \overline{C}) \cup (C \cap \overline{B} \cap \overline{A} \cap \overline{X}) \cup (C \cap \overline{B} \cap X \cap A) = \emptyset\\
+(A \cap \overline{X}) \cup (X \cap \overline{B}) = \emptyset\\
 A \subseteq B \subseteq C\\
+\end{cases}
+$
+$
+X: X\cap \left[(B \cap \overline{A}) \cup (\overline{A} \cap \overline{C}) \cup (A \cap C \cap \overline{B}) \cup \overline{B}\right]=\emptyset\\
+Обозначим\ \left[(B \cap \overline{A}) \cup (\overline{A} \cap \overline{C}) \cup (A \cap C \cap \overline{B}) \cup \overline{B}\right] = S\\
+Тогда\ X \cap S = \emptyset \Rightarrow X \subseteq \overline{S}\\
+$
+$
+Упростим\ S:\\
+\left[(B \cap \overline{A}) \cup (\overline{A} \cap \overline{C}) \cup (A \cap C \cap \overline{B}) \cup \overline{B}\right] = \overline{A} \cup \overline{B}\\
+Значит\ \overline{S} = A \cap B\\
+Значит\ X\subseteq A \cap B\\
+$
 
-X: X \cap [((\overline{C} \cup B)\cap \overline{A}) \cup (C \cap \overline{B} \cap A) \cup \overline{B}] = \emptyset\\
-S = [((\overline{C} \cup B)\cap \overline{A}) \cup (C \cap \overline{B} \cap A) \cup \overline{B}]\\
-X \cap S = \emptyset \Rightarrow X \subseteq \overline{S}\\
-
-\overline{X}: \overline{X}\cap [((\overline{C} \cup B) \cap A)\cup ((\overline{C} \cup B)\cap \overline{A})\cup A] = \emptyset\\
-T = [((\overline{C} \cup B) \cap A)\cup ((\overline{C} \cup B)\cap \overline{A})\cup A]\\
-
-\overline{X} \cap T = \emptyset\Rightarrow T \subseteq X\\
-T \subseteq X \subseteq \overline{S};\\
-A \subseteq B \subseteq C\\
-
-
+$
+\overline{X}: \overline{X} \cap \left[(A \cap B) \cup (A \cap \overline{C}) \cap (C \cap \overline{A} \cap \overline{B}) \cup A \right]\\
+Обозначим \overline{X} \cap \left[(A \cap B) \cup (A \cap \overline{C}) \cap (C \cap \overline{A} \cap \overline{B}) \cup A \right] = T\\
+Тогда\ \overline{X} \cap T = \emptyset\ \Rightarrow T \subseteq X\\
+$
+$
+Упростим\ T:
+\overline{X} \cap \left[(A \cap B) \cup (A \cap \overline{C}) \cap (C \cap \overline{A} \cap \overline{B}) \cup A \right] = A \cup (C \cap \overline{B})\\
+$
+$
+Тогда\ T \subseteq X \subseteq \overline{S}\\
+A \cup (C \cap \overline{B}) \subseteq X \subseteq A \cap B\\
+Заметим,\ что\ так\ как\ A \subseteq B (по\ условию),\ то\ A \cap B = A\\ 
+Получаем: A \cup (C \cap \overline{B}) \subseteq X \subseteq A\\
+\forall X_{0} \in (C \cap \overline{B}): X_{0} \notin A (т.к.\ A \subseteq B \subseteq C)\ значит:\\
+X = A\\
+A\subseteq B \subseteq C\\
 $
