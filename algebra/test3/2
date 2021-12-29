@@ -2,12 +2,17 @@
 1)Пусть O - вершина тетраэдра ABCO
 $
 Рассмотрим\ такие\ векторы:\\ 
-\vec a_{1} = [\vec OA, \vec OB]\\
-\vec a_{2} = [\vec OA, \vec OC]\\ 
-\vec a_{3} = [\vec OB, \vec OC]\\
-\vec a_{4} = [\vec AC, \vec AB]\\
+ [\vec OA, \vec OB]\\
+ [\vec OA, \vec OC]\\ 
+ [\vec OB, \vec OC]\\
+ [\vec AC, \vec AB]\\
+Тогда\\
+\vec a_{1} = \frac{1}{2}[\vec OA, \vec OB]\\
+\vec a_{2} = \frac{1}{2}[\vec OA, \vec OC]\\
+\vec a_{3} = \frac{1}{2}[\vec OB, \vec OC]\\
+\vec a_{4} = \frac{1}{2}[\vec AC, \vec AB]\\
 $
-Они перепендикулярны граням тетраэдера, по абсолютной величене равны их площадям, направлены в стороны противоположных вершин.  ​
+Эти векторы перепендикулярны граням тетраэдера, по абсолютной величене равны их площадям, направлены в стороны противоположных вершин.  ​
 $
 \frac{1}{2}([\vec OA, \vec OB] + [\vec OB, \vec OC] + [\vec OC, \vec OA] + [(\vec OC - \vec OA), (\vec OB - \vec OA)]) = \\
 = \frac{1}{2}([\vec OA, \vec OB] + [\vec OB, \vec OC] + [\vec OC, \vec OA] + [\vec OC, \vec OB] - [\vec OA, \vec OB] - [\vec OC, \vec OA] + [\vec OA, \vec OA]) = 0
