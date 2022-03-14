@@ -1,0 +1,122 @@
+$
+1)\\
+\vec e_{3} = (1, 1, 0);\\
+\vec e_{1} = (0, 0, 1);\\
+\vec e_{2} = [\vec e_{3} \times \vec e_{1}] = 
+\left|
+\begin{array}{ccc}
+\vec i & \vec j & \vec k \\
+1 & 1 & 0\\
+0 & 0 & 1
+\end{array} \right| = \vec i - \vec j \Rightarrow \vec e_{2} = (1, -1, 0);\\
+2) После \ нормирования \ получаем:\\
+\vec e_{1} = (0, 0, 1);\\
+\vec e_{2} = (\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}, 0);\\
+\vec e_{3} = (\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}, 0);\\
+$
+$
+3) \left(
+\begin{array}{c}
+x\\
+y\\
+z
+\end{array} \right) =
+
+\left(
+\begin{array}{ccc}
+0 & 0 & 1\\
+\frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{2}} & 0\\
+\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} & 0
+\end{array} \right)^{T}
+
+\left(
+\begin{array}{c}
+x'\\
+y'\\
+z'
+\end{array} \right) +
+
+\left(
+\begin{array}{c}
+2\\
+0\\
+0
+\end{array} \right);\\
+
+\left(
+\begin{array}{c}
+x\\
+y\\
+z
+\end{array} \right) =
+
+\left(
+\begin{array}{ccc}
+0 & \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\\
+0 & -\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\\
+1 & 0 & 0
+\end{array} \right)
+
+\left(
+\begin{array}{c}
+x'\\
+y'\\
+z'
+\end{array} \right) +
+
+\left(
+\begin{array}{c}
+2\\
+0\\
+0
+\end{array} \right);\\
+$
+$
+4) Получаем \ систему:\\
+\begin{cases}
+x = \frac{1}{\sqrt{2}}y'+\frac{1}{\sqrt{2}}z'+2\\
+y = -\frac{1}{\sqrt{2}}y'+\frac{1}{\sqrt{2}}z'\\
+z = x'
+\end{cases}
+$
+$
+5) Подставим\ в \ исходное \ уравнение \ с \ учётом\ z'=0;\\
+(\frac{1}{\sqrt{2}}y'+2)^2 - (-\frac{1}{\sqrt{2}}y')^2 - x'^{2} = 1;\\
+\frac{1}{2}y'^{2} + \frac{4}{\sqrt{2}}y'+4 - \frac{1}{2}y'^{2} - x'^{2} =1;\\
+x'^{2} = \frac{4}{\sqrt{2}}(y'+\frac{3\sqrt{2}}{4})\\
+$
+$
+6) Пусть \ 
+\begin{cases}
+\tilde x = x'\\
+\tilde y = y'+\frac{3\sqrt{2}}{4}\\
+\tilde z = z'
+\end{cases} (2)\\
+Переходя \ к \ новым \ переменным, с \ учётом\ \tilde z = z' = 0, \ получим: \ \tilde x = 2\cdot \frac{2}{\sqrt{2}}\tilde y; - Каноническое \ уравнение \ параболы, \ p = \frac{2}{\sqrt{2}}, \ ось \ параболы\ параллельна \ оси \ Oy;\\
+$
+$
+7) Из\ этого \ следует: \ \tilde O (0, 0, 0)\\
+\tilde F (0, \frac{1}{\sqrt{2}}, 0) \ т.к. \ для \ нашей\ параболы\ точка\ фокуса\ по\ \tilde y\ расположена\ в:\ 0 + \frac{p}{2} = \frac{1}{\sqrt{2}};\\ 
+\tilde D: \begin{cases} \tilde y = 0 - \frac{p}{2} = -\frac{1}{\sqrt{2}}\\ \tilde z = 0 \end{cases}\\
+8) Переходим\ в\ O'x'y'z' \ с \ помощью\ системы\ (2):\\
+O'(0, -\frac{3\sqrt{2}}{4}, 0);\\
+F'(0, -\frac{\sqrt{2}}{4}, 0);\\
+D': \begin{cases} y'=-\frac{5\sqrt{2}}{4};\\ z' = 0 \end{cases}\\
+9) Переходим\ в\ Oxyz\ с\ помощью\ системы\ (1):\\
+O: x = -\frac{1}{\sqrt{2}}\cdot \frac{3\sqrt{2}}{4} + 2 = -\frac{3}{4} + \frac{8}{4} = \frac{5}{4};\\
+y = \frac{1}{\sqrt{2}}\cdot \frac{3\sqrt{2}}{4} = \frac{3}{4}\\
+z = 0\\
+Получаем\ O(\frac{5}{4}, \frac{3}{4}, 0)\\ 
+F: x = -\frac{1}{\sqrt{2}} \cdot \frac{\sqrt{2}}{4} + 2 = -\frac{1}{4} + 2 = \frac{7}{4};\\
+y = \frac{1}{\sqrt{2}}\cdot \frac{\sqrt{2}}{4} = \frac{1}{4}\\
+z = 0\\
+Получаем\ F(\frac{7}{4}, \frac{1}{4}, 0)\\
+D:
+\begin{cases}
+y = \frac{1}{\sqrt{2}}\cdot \frac{5\sqrt{2}}{4} = \frac{5}{4}\\
+x + y = 2
+\end{cases} \Rightarrow x = \frac{3}{4}\\
+$
+$
+Ответ:\ тип\ кривой\ -\ парабола,\ O(\frac{5}{4}, \frac{3}{4}, 0),\ F(\frac{7}{4}, \frac{1}{4}, 0),\ D: \begin{cases} {y = \frac{5}{4}\\ x = \frac{3}{4}} \end{cases}.
+$
