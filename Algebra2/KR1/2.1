@@ -1,0 +1,53 @@
+$
+17x^2 - 2xy + y^2 -3x - y - 3 = 0; \\
+\begin{array}{ccc}
+a_{11}=17; & a_{12}=-1 & a_{22}=1\\
+a_{13}=-\frac{3}{2}; & a_{23}=-\frac{1}{2}; & a_{33}=-3
+\end{array}\\
+
+1) J_{2} = \left|
+\begin{array}{cc}
+17 & -1\\
+-1 & 1
+\end{array} \right| = 17 - 1 = 16 \neq 0; - \ центральная\ линия; \\
+$
+$
+2) 
+\begin{cases}
+a_{11}x_{0} + a_{12}y_{0} + a_{13} = 0\\
+a_{12}x_{0} + a_{22}y_{0} + a_{23} = 0
+\end{cases}\\
+\begin{cases}
+17x_{0}-y_{0}-\frac{3}{2}=0\\
+-x_{0}+y_{0}-\frac{1}{2}=0
+\end{cases}\\
+y_{0} = x_{0}+\frac{1}{2};\ 17x_{0}-(x_{0}+\frac{1}{2})-\frac{3}{2}=0;\\
+16x_{0}-2=0;\ x_{0}=\frac{1}{8}\\
+y_{0}=\frac{1}{8}+\frac{1}{2}=\frac{5}{8}; \Rightarrow x_{0} = \frac{1}{8}; \ y_{0}=\frac{5}{8}; -\ координаты\ центра\ кривой;\\
+\tilde a_{33} = a_{13}x_{0}+a_{23}y_{0}+a_{33}= -\frac{3}{2}x_{0}-\frac{1}{2}y_{0}-3 = -\frac{3}{2} \cdot \frac{1}{8} - \frac{1}{2} \cdot \frac{5}{8} - 3 =\\
+=-\frac{7}{2}\\
+$
+$3)\cot{2\varphi}=\frac{17-1}{-2}=-8;\\
+\cot{2\varphi}=-\sqrt{\frac{1}{(\sin{2\varphi})^2}-1};\\
+64 = \frac{1}{(\sin{2\varphi})^2}-1;\\
+(\sin{2\varphi})^2 = \frac{1}{65}; \ Пусть\ \sin{2\varphi} = \frac{1}{\sqrt{65}};\\
+1-(\cos{2\varphi})^2=\frac{1}{65}; \ Тогда\ \cos{2\varphi}=-\frac{8}{\sqrt{65}};\\
+\cos{2\varphi}=2(\cos{\varphi})^2-1 =-\frac{8}{\sqrt{65}};\ (\cos{\varphi})^2=\frac{\sqrt{65}-8}{2\sqrt{65}};\\
+Пусть\ \cos{\varphi} = \sqrt{\frac{-8+\sqrt{65}}{2\sqrt{65}}};\\
+Тогда\ \sin{2\varphi} = 2\sin{\varphi} \cdot \cos{\varphi} = \frac{1}{\sqrt{65}};\ \sin{\varphi} \cdot \sqrt{\frac{-8+\sqrt{65}}{2\sqrt{65}}} = \frac{1}{2\sqrt{65}};\\
+\sin{\varphi} = \frac{1}{\sqrt{2\sqrt{65}} \cdot \sqrt{-8+\sqrt{65}}};\\
+$
+$4) \tilde a_{11} = a_{11}(\cos{\varphi})^2 + 2a_{12}\cos{\varphi} \cdot \sin{\varphi}  + a_{22}(\sin{\varphi})^2;\\
+(\cos{\varphi})^2=\frac{-8 + \sqrt{65}}{2\sqrt{65}}; \ (\sin{\varphi})^2=\frac{1}{2\sqrt{65}(-8+\sqrt{65})};\\
+Тогда\ получаем:\ \tilde a_{11} = 17 \cdot \frac{-8 + \sqrt{65}}{2\sqrt{65}} - \frac{1}{\sqrt{65}}+\frac{1}{2\sqrt{65}(-8+\sqrt{65})} = 9 - \sqrt{65};\\
+\tilde a_{22} = a_{11}(\sin{\varphi})^2 -2a_{12}\sin{\varphi} \cdot \cos{\varphi} + a_{22}(\cos{\varphi})^2 = 17 \cdot \frac{1}{2\sqrt{65}(-8+\sqrt{65})} + \frac{1}{\sqrt{65}} + \frac{\sqrt{65}-8}{2\sqrt{65}} = \\
+= \sqrt{65} + 9;\\
+$
+$5) Имея\ \tilde a_{11}, \ \tilde a_{22},\ \tilde a_{33} \ получаем:\\
+\tilde x^2 (9 - \sqrt{65}) + \tilde y^2 (\sqrt{65}+9) = \frac{7}{2};\\
+\frac{\tilde x^2}{ \frac{7}{ 2(-\sqrt{65}+9) } } + \frac{\tilde y^2}{ \frac{7}{ 2(\sqrt{65}+9) } } = 1; -\ каноническое\ уравнение\ эллипса;\\
+$
+$Ответ:\ \frac{\tilde x^2}{ \frac{7}{ 2(-\sqrt{65}+9) } } + \frac{\tilde y^2}{ \frac{7}{ 2(\sqrt{65}+9) } } = 1; -\ каноническое\ уравнение\ эллипса;\\
+O(\frac{1}{8}, \frac{5}{8}); \ \vec e_{1} = (\sqrt{\frac{-8+\sqrt{65}}{2\sqrt{65}}},\ \frac{1}{\sqrt{2\sqrt{65}} \cdot \sqrt{-8+\sqrt{65}}}); \ \vec e_{2} = (-\frac{1}{\sqrt{2\sqrt{65}} \cdot \sqrt{-8+\sqrt{65}}}, \sqrt{\frac{-8+\sqrt{65}}{2\sqrt{65}}});\\
+
+$
