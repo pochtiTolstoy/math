@@ -1,0 +1,90 @@
+$x^2+y^2 + 4z^2 -2xy -4xz + 4yz -x + y + 2z + k = 0;\\
+\begin{array}{ccc}
+a_{11}=1 & a_{22}=1 & a_{33}=4\\
+a_{12}=1 & a_{23}=1 & a_{23}=4\\
+a_{14}=1 & a_{24}=1 & a_{34}=4\\
+a_{44}=k
+\end{array}\\
+1) J_{3} = \left|
+\begin{array}{ccc}
+1 & -1 & -2\\
+-1 & 1 & 2\\
+-2 & 2 & 4
+\end{array} \right| = 0\\
+$
+$2) J_{2} = \left|
+\begin{array}{cc}
+1 & -1\\
+-1 & 1
+\end{array} \right| +
+
+\left|
+\begin{array}{cc}
+1 & 2\\
+2 & 4
+\end{array} \right| +
+
+\left|
+\begin{array}{cc}
+1 & -2\\
+-2 & 4
+\end{array} \right| = 1 -1 + 4 - 4 + 4 - 4 = 0;\\
+3) J_{4} = \left|
+\begin{array}{cccc}
+1 & -1 & -2 & -\frac{1}{2}\\
+-1 & 1 & 2 & \frac{1}{2}\\
+-2 & 2 & 4 & 1\\
+-\frac{1}{2} & \frac{1}{2} & 1 & k
+\end{array} \right| = 0; (S_{1} + S_{2} = 0)\\
+$
+$4) \tilde J_{3} = \left|
+\begin{array}{ccc}
+1 & -1 & -\frac{1}{2}\\
+-1 & 1 & \frac{1}{2}\\
+-\frac{1}{2} & \frac{1}{2} & k
+\end{array} \right| +
+
+\left|
+\begin{array}{ccc}
+1 & -2 & -\frac{1}{2}\\
+-2 & 4 & 1\\
+-\frac{1}{2} & 1 & k
+\end{array} \right| +
+
+\left|
+\begin{array}{ccc}
+1 & 2 & \frac{1}{2}\\
+2 & 4 & 1\\
+\frac{1}{2} & 1 & k
+\end{array} \right| = 0;\\
+
+5) \tilde J_{2} = \left|
+\begin{array}{cc}
+1 & -\frac{1}{2}\\
+-\frac{1}{2} & k
+\end{array} \right| + 
+
+\left|
+\begin{array}{cc}
+1 & \frac{1}{2}\\
+\frac{1}{2} & k
+\end{array} \right| + 
+
+\left|
+\begin{array}{cc}
+4 & 1\\
+1 & k
+\end{array} \right| = 4k + 2k -\frac{1}{4} - \frac{1}{4} - 1 = 6k-\frac{3}{2};\\
+6) J_{1} = 6;\\
+$
+$J(\lambda) = -\lambda^3 + 6\lambda^2 = 0;\\
+\lambda^2(\lambda - 6) = 0;\\
+\lambda_{1}=6;\\
+$
+$7) Тогда\ получаем:\
+6\tilde x^2 + \frac{6k-\frac{3}{2}}{6} = 6\tilde x^2 + k - \frac{1}{4} = 0\\
+\tilde a_{44} = k - \frac{1}{4};\\
+\tilde a_{44} < 0: (k - \frac{1}{4}) < 0; При\ k < \frac{1}{4} \ получаем\ параллельные\ плоскости;\\
+При\ k = \frac{1}{4} \ получаем\ совпадающие\ плоскости,\ т.к.\ 6\tilde x^2 = 0;\\
+При\ k > \frac{1}{4} \ пара\ мнимых\ параллельных\ плоскостей, т.к. \tilde a_{44} = (k - \frac{1}{4}) > 0;\\
+$
