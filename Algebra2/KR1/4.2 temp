@@ -1,0 +1,58 @@
+$5x^2 + 5y^2 + 5z^2 + 6xy -6xz - 6yz + 22x + 18y -26z + 15 = 0\\
+\begin{array}{ccc}
+a_{11}=5 & a_{22} =5 & a_{33} = 5\\
+a_{12}=3 & a_{23} =-3 & a_{23} = -3\\
+a_{14}=11 & a_{24} =9 & a_{34} = 13\\
+a_{44} = 15
+\end{array}
+$
+$1) J_{3} = \left|
+\begin{array}{ccc}
+5 & 3 & -3\\
+3 & 5 & -3\\
+-3 & -3 & 5
+\end{array} \right| = 44 \neq 0\\
+2) J_{4} = \left|
+\begin{array}{cccc}
+5 & 3 & -3 & 11\\
+3 & 5 & -3 & 9\\
+-3 & -3 & 5 & 13\\
+11 & 9 & 13 & 15
+\end{array} \right| = 5\left|
+\begin{array}{ccc}
+2 & 2 & 22\\
+-3 & 5 & 13\\
+9 & 13 & 15\\
+\end{array} \right| +
+(-3)\left|
+\begin{array}{ccc}
+3 & -3 & 11\\
+2 & 2 & 22\\
+9 & 13 & 15\\
+\end{array} \right| -
+11\left|
+\begin{array}{ccc}
+3 & -3 & 11\\
+2 & 2 & 22\\
+-3 & 5 & 13
+\end{array} \right| = -7208\\
+J_{2} = \left|
+\begin{array}{cc}
+5 & 3\\
+3 & 5
+\end{array} \right| + 
+\left|
+\begin{array}{cc}
+5 & -3\\
+-3 & 5
+\end{array} \right| +
+\left|
+\begin{array}{cc}
+5 & -3\\
+-3 & 5
+\end{array} \right| = 48\\
+$
+$3) J(\lambda) = -\lambda^3 + \lambda^2J_{1} -\lambdaJ_{2} + J_{3};\\
+-\lambda^3 + 15\lambda^2 -48\lambda + 44 = 0\\
+
+$
