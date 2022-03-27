@@ -1,0 +1,39 @@
+$5x^2 + 24xy + 12y^2 - 4x+24y + 5 = 0;\\
+\begin{array}{ccc}
+a_{11} = 5 & a_{12} = 12 & a_{22} = 12\\
+a_{13} = -2 & a_{23} = 12 & a_{33} = 5
+\end{array}\\
+\left|
+\begin{array}{cc}
+5 & 12\\
+12 & 12
+\end{array} \right| = 5 \cdot 12 - 144 \neq 0;\\
+2) \begin{cases}
+a_{11}x_{0} + a_{12}y_{0}+a_{13} = 0\\
+a_{12}x_{0} + a_{22}y_{0} + a_{23} = 0
+\end{cases}\\
+\begin{cases}
+5x_{0} + 12y_{0}-2 = 0\\
+12x_{0} + 12y_{0} + 12 = 0
+\end{cases}\\
+y_{0} = 1,\ x_{0} = -2\\
+3) \tilde a_{33} = 4 + 12 + 5 = 21\\
+4) \cot{2\alpha} = \frac{5 - 12}{24} = \frac{-7}{24}\\
+\frac{49}{24^2} = \frac{1}{\sin{2\alpha}^2}-1\\
+\sin{2\alpha}^2 = \frac{576}{625}\\
+1-\cos{2\alpha}^2 = \frac{576}{625}\\
+\cos{2\alpha}=\frac{7}{25};\ \sin{2\alpha} = -\frac{24}{25}\\
+\cos{\alpha}^2 = \frac{32}{50}\\
+\cos{\alpha} = \sqrt{ \frac{32}{50} }\\
+2\sin{\alpha}\cos{\alpha} = -\frac{24}{25}\\
+\sin{\alpha} \cdot \frac{4}{5} = -\frac{12}{25}\\
+\sin{\alpha} = -\frac{3}{5}\\
+$
+$5) \tilde a_{11} = 5 \cdot \frac{16}{25} + 12 \cdot (-\frac{24}{25})+ 12 \cdot \frac{9}{25}= \frac{1}{25}(5 \cdot 16 - 12 \cdot 24 + 12 \cdot 9) = -4\\
+\tilde a_{22} = 5 \cdot \frac{9}{25} + 12 \cdot \frac{24}{25} + 12 \cdot \frac{16}{25} = 21\\
+$
+$6) -\tilde x^2 +21\tilde y^2 + 21 = 0\\
+\frac{\tilde x^2 }{ \frac{21}{4} } - \tilde y^2 = 1;\ -\ Гипербола;\\
+O(-2, 1)\\
+\vec e_{1} = (\frac{4}{5}, -\frac{3}{5}), \vec e_{2} = (\frac{3}{5}, \frac{4}{5})\\
+$
