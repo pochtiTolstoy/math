@@ -1,0 +1,93 @@
+$
+1)\\
+\vec e_{3} = (1, -1, 0);\\
+\vec e_{2} = (0, 0, 1);\\
+\vec e_{1} = [\vec e_{3} \times \vec e_{1}] = 
+\left|
+\begin{array}{ccc}
+\vec i & \vec j & \vec k \\
+0 & 0 & 1\\
+1 & -1 & 0\\
+\end{array} \right| = \vec i - \vec j \Rightarrow \vec e_{1} = (1, 1, 0);\\
+2) После \ нормирования \ получаем:\\
+\vec e_{2} = (0, 0, 1);\\
+\vec e_{3} = (\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}, 0);\\
+\vec e_{1} = (\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}, 0);\\
+$
+$
+3) \left(
+\begin{array}{c}
+x\\
+y\\
+z
+\end{array} \right) =
+
+\left(
+\begin{array}{ccc}
+\frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}}\\
+\frac{1}{\sqrt{2}} & 0 & -\frac{1}{\sqrt{2}}\\
+0 & 1 & 0
+\end{array} \right)
+
+\left(
+\begin{array}{c}
+x'\\
+y'\\
+z'
+\end{array} \right) +
+
+\left(
+\begin{array}{c}
+3\\
+0\\
+0
+\end{array} \right);\\
+$
+$
+4) Получаем \ систему:\\
+\begin{cases}
+x = \frac{1}{\sqrt{2}}x'+\frac{1}{\sqrt{2}}z'+3\\
+y = \frac{1}{\sqrt{2}}x'-\frac{1}{\sqrt{2}}z'\\
+z = y'
+\end{cases} (1)\\
+$
+$
+5) Подставим\ в \ исходное \ уравнение \ с \ учётом\ z'=0;\\
+(\frac{1}{\sqrt{2}}x'+3)^2 - (\frac{1}{\sqrt{2}}x')^2 - y'^{2} = 1;\\
+y'^{2} = \frac{6}{\sqrt{2}}(x'+\frac{4\sqrt{2}}{3})\\
+$
+$
+6) Пусть \ 
+\begin{cases}
+\tilde y = y'\\
+\tilde x = x'+\frac{4\sqrt{2}}{3}\\
+\tilde z = z'
+\end{cases} (2)\\
+Переходя \ к \ новым \ переменным, с \ учётом\ \tilde z = z' = 0, \ получим: \ \tilde y^2 = 2\cdot \frac{3}{\sqrt{2}}\tilde x; - Каноническое \ уравнение \ параболы, \ p = \frac{3}{\sqrt{2}}, \ ось \ параболы\ параллельна \ оси \ O\tilde x;\\
+$
+$
+7) Из\ этого \ следует: \ \tilde O (0, 0, 0)\\
+\tilde F (\frac{3}{2\sqrt{2}}, 0, 0)\\
+\tilde D: \begin{cases} \tilde x = 0 - \frac{p}{2} = -\frac{3}{2\sqrt{2}}\\ \tilde z = 0 \end{cases}\\
+8) Переходим\ в\ O'x'y'z' \ с \ помощью\ системы\ (2):\\
+O'(-\frac{4\sqrt{2}}{3}, 0, 0);\\
+F'(-\frac{7}{6\sqrt{2}}, 0, 0);\\
+D': \begin{cases} x'=-\frac{ 25 }{ 6\sqrt{2} };\\ z' = 0 \end{cases}\\
+9) Переходим\ в\ Oxyz\ с\ помощью\ системы\ (1):\\
+O: x = \frac{1}{\sqrt{2}}\cdot (-\frac{4\sqrt{2}}{3}) + 3 = \frac{5}{3};\\
+y = \frac{1}{\sqrt{2}}\cdot (-\frac{4\sqrt{2}}{3}) = -\frac{4}{3}\\
+z = 0\\
+Получаем\ O(\frac{5}{3}, -\frac{4}{3}, 0)\\ 
+F: x = \frac{1}{\sqrt{2}} \cdot (-\frac{7}{6\sqrt{2}}) + 3 = \frac{29}{12};\\
+y = -\frac{7}{12}\\
+z = 0\\
+Получаем\ F(\frac{29}{12}, -\frac{7}{12}, 0)\\
+D:
+\begin{cases}
+x = \frac{1}{\sqrt{2}}(-\frac{25}{6\sqrt{2}})+3=\frac{11}{12}\\
+x - y = 3
+\end{cases} \Rightarrow y = -\frac{25}{12}\\
+$
+$
+Ответ:\ тип\ кривой\ -\ парабола,\ O(\frac{5}{3}, -\frac{4}{3}, 0),\ F(\frac{29}{12}, -\frac{7}{12}, 0),\ D: \begin{cases} {x = \frac{11}{12}\\ y = -\frac{25}{12}} \end{cases}.
+$
