@@ -1,0 +1,70 @@
+$
+M(1,0,0) \Rightarrow x_{0}=1,\ y_{0} = 0,\ z_{0}=0;\\
+0 = \cos{t}\\
+t = \frac{\pi}{2} + \pi k,\ k \in Z;\\
+Несложно\ убедиться,\ что\ такое\ значение\ t\ удовлетворяет\ системе\ при\ x_{0} = 1,\ y_{0} = 0\\
+Значит\ t = \frac{\pi}{2} + 2\pi k,\ k \in Z;\\
+$
+$
+1) Пусть\ t = \frac{\pi}{2}:\\
+x'(t) = 2\sin{t}\cos{t} - \sin{t}\\
+y'(t) = \frac{1}{2}\cos{2t} \cdot 2 = \cos{2t}\\
+z'(t) = -\sin{t}\\
+x''(t) = 2(\cos{t}^2 - \sin{t}^2) - \cos{t}\\
+y''(t) = -2\sin{t}\\
+z''(t) = -\cos{t}\\
+Подставим\ t:\\
+x'(t) = -1\\
+y'(t) = -1\\
+z'(t) = -1\\
+x''(t) = -2\\
+y''(t) = 0\\
+z''(t) = 0\\
+2) \vec r' = \{-1, -1, -1\}\\
+\vec r'' = \{-2, 0, 0\}\\
+|\vec r'| = \sqrt{3}\\
+\vec J = \{-\frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}}\}\\
+$
+$
+[\vec r' \times \vec r''] =
+\begin{vmatrix}
+\vec i & \vec j & \vec k\\
+-1 & -1 & -1\\
+-2 & 0 & 0 
+\end{vmatrix} = \{0, 2, -2\}\\
+|\vec r' \times \vec r''| = \sqrt{8} = 2\sqrt{2}\\
+\vec B = \{0, \frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\}\\
+$
+$
+3) [\vec r' \times \vec r''] \times \vec r' =
+\begin{vmatrix}
+\vec i & \vec j & \vec k\\
+0 & 2 & -2\\
+-1 & -1 & -1
+\end{vmatrix} = \{-4, 2, 2\}\\
+|[\vec r' \times \vec r''] \times \vec r'| = 2\sqrt{6}\\
+\vec V = \{-\frac{2}{\sqrt{6}}, \frac{1}{\sqrt{6}}, \frac{1}{\sqrt{6}}\}\\
+При\ t=\frac{\pi}{2}:\\
+\vec J = \{-\frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}}\}\\
+\vec V = \{-\frac{2}{\sqrt{6}}, \frac{1}{\sqrt{6}}, \frac{1}{\sqrt{6}}\}\\
+\vec B = \{0, \frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\}\\
+$
+$
+2) При\ t=-\frac{\pi}{2}\ (т.к.\ в\ точке\ M\ кривая\ пересекает\ сам\ себя)\\
+\vec J = \{\frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}}, \frac{1}{\sqrt{3}}\}\\
+\vec V = \{-\frac{2}{\sqrt{6}}, -\frac{1}{\sqrt{6}}, \frac{1}{\sqrt{6}}\}\\
+\vec B = \{0, -\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\}\\
+$
+$
+Ответ:\ Репер\ Френе\ в\ точке\ M:\\
+При\ t=\frac{\pi}{2} + 2\pi k,\ k \in Z:\\
+\vec J = \{-\frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}}\}\\
+\vec V = \{-\frac{2}{\sqrt{6}}, \frac{1}{\sqrt{6}}, \frac{1}{\sqrt{6}}\}\\
+\vec B = \{0, \frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\}\\
+2) При\ t=-\frac{\pi}{2} + 2\pi k,\ k \in Z\ (т.к.\ в\ точке\ M\ кривая\ пересекает\ сам\ себя)\\
+\vec J = \{\frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}}, \frac{1}{\sqrt{3}}\}\\
+\vec V = \{-\frac{2}{\sqrt{6}}, -\frac{1}{\sqrt{6}}, \frac{1}{\sqrt{6}}\}\\
+\vec B = \{0, -\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\}\\
+$
+$
+$
