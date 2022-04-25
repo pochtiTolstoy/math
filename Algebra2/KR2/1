@@ -1,0 +1,49 @@
+$
+Репер\ Френе:\ (\vec J, \vec V, \vec B)\\
+\begin{cases}
+x=t^2-2t+3\\
+y=t^2-2t+1\\
+z=t^2+2t
+\end{cases}\\
+1) x_{0} = 3\\
+x_{0}=t^2-2t+3;\ 3 = t^2 - 2t + 3;\ \Rightarrow t = 0;\\
+y_{0} = 1;\ 1 = t^2 - 2t + 1;\ \Rightarrow t = 0;\\
+z_{0} = 0; \Rightarrow t = 0;\\
+$
+$ \vec r' = \{2t-2, 2t-2, 2t+2\};\\
+\vec r'' = \{2, 2, 2\};\\
+x'(M_{0}) = -2\\
+y'(M_{0}) = -2\\
+z'(M_{0}) = 2\\
+x''(M_{0}) = 2\\
+y''(M_{0}) = 2\\
+z''(M_{0}) = 2\\
+\vec r'(t) = \{-2, -2, 2\}\\
+|\vec r'(t)| = 2\sqrt{3}\\
+$
+$ 
+1) \vec J = \left\{ -\frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}} , \frac{1}{\sqrt{3}} \right\}\\
+2) \left[\vec r' \times \vec r'' \right] = 
+\begin{vmatrix}
+\vec i & \vec j & \vec k\\
+-2 & -2 & 2\\
+2 & 2 & 2
+\end{vmatrix} = \vec i (-8) - \vec j (-8) + \vec k (0) = \{-8, 8, 0\}\\
+\left|\left[\vec r' \times \vec r'' \right]\right| = 8\sqrt{2}\\
+\vec B = \{-\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}, 0\}\\
+3) \left[ \left[\vec r' \times \vec r'' \right] \times \vec r' \right] = 
+\begin{vmatrix}
+\vec i & \vec j & \vec k\\
+-8 & 8 & 0\\
+-2 & -2 & 2
+\end{vmatrix} = \vec i (16) - \vec j (-16) + \vec k (32) = \{16, 16, 32\}\\
+\left|[ \left[\vec r' \times \vec r'' \right] \times \vec r' ]\right| =
+16\sqrt{6}\\
+\vec V = \{\frac{1}{\sqrt{6}}, \frac{1}{\sqrt{6}}, \frac{2}{\sqrt{6}}\}\\
+$
+$
+Ответ:\ Репер\ Френе:\ (\vec J, \vec V, \vec B):\\
+\vec J = \left\{ -\frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}} , \frac{1}{\sqrt{3}} \right\}\\
+\vec V = \{\frac{1}{\sqrt{6}}, \frac{1}{\sqrt{6}}, \frac{2}{\sqrt{6}}\}\\
+\vec B = \{-\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}, 0\}\\
+$
