@@ -1,0 +1,37 @@
+$
+1) \begin{cases}
+x^2 + y^2 + z^2 = 4R^2\\
+x^2 + y^2 = 2Rx
+\end{cases};\\
+2) Параметрическое\ уравнение\ кривой\ Вивани:\\
+\vec r(t)\ = \{R(1+ \cos{t}), R(\sin{t}), 2R\sin{\frac{t}{2}}\}\\
+3)\ \vec r'(t) = (-R\sin{t}, R\cos{t}, R\cos{\frac{t}{2}})\\
+4)\ \vec r''(t) = (-R\cos{t}, -R\sin{t}, -\frac{R}{2}\sin{\frac{t}{2}})\\
+5) |\vec r'(t)| = R\sqrt{ 1 + \cos^2{(\frac{t}{2})} }\\
+6) [\vec r' \times \vec r''] = \begin{vmatrix}
+\vec i & \vec j & \vec k\\
+-R\sin{t} & R\cos{t} & R\cos{\frac{t}{2}}\\
+-R\cos{t} & -R\sin{t} & -\frac{R}{2}\sin{\frac{t}{2}}
+\end{vmatrix} = \vec i (-\frac{R^2}{2}\cos{t}\sin{\frac{t}{2}} + R^2\sin{t}\cos{\frac{t}{2}}) - \vec j (\frac{R^2}{2}\sin{t}\sin{\frac{t}{2}} + R^2\cos{t}\cos{\frac{t}{2}})
++ \vec k (R^2) =  \\= \{R^2(-\frac{1}{2}\cos{t}\sin{\frac{t}{2}} + \sin{t}\cos{\frac{t}{2}}) ,-R^2(\frac{1}{2}\sin{t}\sin{\frac{t}{2}} + \cos{t}\cos{\frac{t}{2}}) , R^2\}\\
+7)\ |\vec r' \times \vec r''| = R^2\frac{ \sqrt{ 3\cos^2{(\frac{t}{2})}  + 5} }{ 2 }\\
+8)\ |\vec r'|^3 = R^3\sqrt{(1+ \cos{\frac{t}{2}})^3}\\
+9)\ k(t) = \frac{ \sqrt{ 3\cos^2{\frac{t}{2}} + 5 } }{2R\sqrt{(1 + \cos^2{\frac{t}{2}})^3}} = \\
+= \frac{ \sqrt{ \frac{3\cos{t} + 13}{2} } }{2R\sqrt{(\frac{ 3 + \cos{t}}{ 2 })^3 }} = R\sqrt{ \frac{3\cos{t} + 13}{(3 + \cos{t})^3 } }\\
+10) \vec r''' = \{R\sin{t}, -R\cos{R}, -\frac{R}{4}\cos{\frac{t}{2}}\}\\
+11) [\vec r' \times \vec r''] \cdot \vec r''' = R^3(-\frac{1}{2}\cos{t}\sin{t}\sin{\frac{t}{2}} + \sin^2{t}\cos{\frac{t}{2}}) - R^3\cos{t}(-\frac{1}{2}\sin{t}\sin{\frac{t}{2}} - \cos{t}\cos{\frac{t}{2}}) 
+- \frac{R^3}{4}\cos{\frac{t}{2}}\\
+12) |[\vec r' \times \vec r'']|^2 = R^4\left(\frac{3\cos^2{\frac{t}{2}}+5}{4}\right)\\
+13) k_{2}(t) = \frac{6\cos{\frac{t}{2}}}{R(3\cos{t} + 13)}\\
+$
+$Наличие\ точек\ распремления\ означает,\ что\ в\ этих\ точках\ кривизна\ кривой\ равна\ нулю.\\
+k(t) = \frac{ \sqrt{ 3\cos^2{\frac{t}{2}} + 5 } }{2R\sqrt{(1 + \cos^2{\frac{t}{2}})^3}}\\
+Предположим,\ что\ k(t) = 0\\
+Значит:\\
+3\cos{t} + 13 = 0;\ \cos{t} = -\frac{13}{3};\ -\ противоречие.\
+Следовательно\ на\ кривой\ нет\ точек\ распрямления.
+$
+$Ответ:\\ a)\\ k(t) = \frac{ \sqrt{ 3\cos^2{\frac{t}{2}} + 5 } }{2R\sqrt{(1 + \cos^2{\frac{t}{2}})^3}};\\
+k_{2}(t) = \frac{6\cos{\frac{t}{2}}}{R(3\cos{t} + 13)};\\
+б)\ Нет.\\
+$
