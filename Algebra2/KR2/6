@@ -1,0 +1,15 @@
+$
+1)\ \vec r'_{u} = \{u\cos{v}, u\sin{v}, u^2\}\\
+2) \vec r_{u} = \{\cos{v}, \sin{v}, 2u\}\\
+3) \vec r_{v} = \{-u\sin{v}, u\cos{v}, 0\}\\
+4) v - u - 1 = 0 \Rightarrow dv = du;\\
+v = 3 - u \Rightarrow dv = -du;\\
+5) E = \cos^2{v} + \cos^2{v} + 4u^2 = 1 + 4u^2;\\
+G = u^2\sin^2{v} + u^2\cos^2{v} + 0 = u^2;\\
+F = -u\cos{v}\sin{v} + u\sin{v}\cos{v} = 0;\\
+\cos{\varphi} = \frac{ Edudu + F(dudv + dvdu) + Gdvdv }{ \sqrt{Edu^2 + 2Fdudv + Gdv^2} \cdot \sqrt{Edu^2 + 2Fdudv + Gdv^2} } = \\
+= \frac{ (1+4u^2)dudu + u^2dvdu }{ \sqrt{(1+4u^2)du^2 + u^2dv^2} \cdot \sqrt{(1+4u^2)du^2 + u^2dv^2}} = \frac{1+3u^2}{1+5u^2};\\
+u = 1 \Rightarrow \cos{\varphi} = \frac{2}{3};\\
+Ответ:\ \varphi = \arccos{\frac{2}{3}};\\
+
+$
