@@ -1,0 +1,60 @@
+$
+1)\ \left( \begin{array}{cccc}
+2 & 2 & 2 & -1\\
+-1 & -2 & -1 & 1
+\end{array} \right) (s_{1} + s_{2}) \sim 
+\left( \begin{array}{cccc}
+1 & 0 & 1 & 0\\
+-1 & -2 & -1 & 1
+\end{array} \right) (s_{2} + s_{1}) \sim\\
+\sim 
+\left( \begin{array}{cccc}
+1 & 0 & 1 & 0\\
+0 & -2 & 0 & 1
+\end{array} \right) \Rightarrow \begin{cases}
+x_{1} = -x_{3}\\
+x_{2} = \frac{x_{4}}{2}
+\end{cases}\\
+b_{1}(0, 1, 0, 2)^{T},\ b_{2}(1, 0, -1, 0)^{T};\\
+$
+$
+2)\ точка\ B:\ \begin{cases}
+x_{1} + x_{3} = 0\\
+-2x_{2} + x_{4} = - 4
+\end{cases} \Rightarrow B(1, 1, -1, -2),\ A(−2,1,2,−2)\\
+\vec AB(3, 0, -3, 0)\\
+$
+$
+3) rank(a_{1}, a_{2}, b_{1}, b_{2}):\\
+\left(\begin{array}{cccc}
+1 & 1 & -1 & 2\\
+-2 & 1 & 2 & 2\\
+0 & 1 & 0 & 2\\
+1 & 0 & -1 & 0
+\end{array} \right) (s_{2} + 2s_{4}, s_{4} - s_{1}) \sim
+\left(\begin{array}{cccc}
+1 & 1 & -1 & 2\\
+0 & 1 & 0 & 2\\
+0 & 1 & 0 & 2\\
+0 & -1 & 0 & -2
+\end{array} \right) \Rightarrow rank = 2;\\
+\Rightarrow \pi_{1}\ ||\ \pi_{2}\\;\\
+$
+$
+4) rank(a_{1}, a_{2}, b_{1}, b_{2}, \vec AB):\\
+\left(\begin{array}{cccc}
+1 & 1 & -1 & 2\\
+0 & 1 & 0 & 2\\
+3 & 0 & -3 & 0
+\end{array} \right) (s_{1} - s_{2}) \sim
+\left(\begin{array}{cccc}
+1 & 0 & -1 & 0\\
+0 & 1 & 0 & 2\\
+3 & 0 & -3 & 0
+\end{array} \right) \Rightarrow rank = 2;\\
+\Rightarrow \pi_{1} \cap \pi_{2};\\
+\Rightarrow \pi_{1}\ совпадает\ с\ \pi_{2};\\
+$
+$
+Ответ:\ \pi_{1}\ совпадает\ с\ \pi_{2};\\
+$
