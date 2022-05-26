@@ -1,0 +1,96 @@
+$
+]Q=(1,1,1,1)\ -\ является\ решением\ системы\ для\ строгих\ неравенств\ \Rightarrow жёстких\ ограничений\ нет.\\
+Rank(A_{1}) = 0;\\
+Rank(A):\\
+\left(\begin{array}{cccc}
+1 & 1 & 1 & 1\\
+1 & 0 & 0 & 1\\
+0 & 1 & 0 & 1\\
+0 & 0 & 1 & 1
+\end{array} \right) \sim 
+\left(\begin{array}{cccc}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1
+\end{array} \right) \Rightarrow Rank(A) = 4;\\
+dim(M) = 4 - 0 = 4;\\
+dim(Г_{min})= 4 - 4 = 0;\\
+$
+$
+Вершины:\\
+\begin{cases}
+x_{1} + x_{2} + x_{3} + x_{4} = 1;\\
+x_{1} + x_{4} = 0\\
+x_{2} + x_{4} = 0\\
+x_{3} + x_{4} = 0
+\end{cases} \Rightarrow V(\frac{1}{2},\frac{1}{2},\frac{1}{2},-\frac{1}{2});\\
+$
+$
+Рёбра:\\
+Г_{1}^{1}:\ 
+\begin{cases}
+x_{1} + x_{2} + x_{3} + x_{4} = 1;\\
+x_{1} + x_{4} = 0\\
+x_{2} + x_{4} = 0\\
+x_{3} + x_{4} >= 0
+\end{cases}\ a_{1}(1, 1, -1, -1)^{T};\\
+
+Г_{1}^{2}:\ 
+\begin{cases}
+x_{1} + x_{2} + x_{3} + x_{4} = 1;\\
+x_{1} + x_{4} = 0\\
+x_{2} + x_{4} >= 0\\
+x_{3} + x_{4} = 0
+\end{cases}\ a_{2}(-1, 1, -1, 1)^{T};\\
+
+Г_{1}^{3}:\ 
+\begin{cases}
+x_{1} + x_{2} + x_{3} + x_{4} = 1;\\
+x_{1} + x_{4} >= 0\\
+x_{2} + x_{4} = 0\\
+x_{3} + x_{4} = 0
+\end{cases}\ a_{3}(1, -1, -1, 1)^{T};\\
+
+Г_{1}^{4}:\ 
+\begin{cases}
+x_{1} + x_{2} + x_{3} + x_{4} = 1;\\
+x_{1} + x_{4} = 0\\
+x_{2} + x_{4} = 0\\
+x_{3} + x_{4} >= 0
+\end{cases}\ a_{1}(1, 1, 1, -1)^{T};\\
+$
+$
+X = \lambda \left(
+\begin{array}{c} 
+\frac{1}{2}\\ 
+\frac{1}{2}\\
+\frac{1}{2}\\
+-\frac{1}{2}
+\end{array} \right) + \beta_{1} \left(
+\begin{array}{c} 
+1\\ 
+1\\
+-1\\
+-1
+\end{array} \right) + \beta_{2} \left(
+\begin{array}{c} 
+-1\\ 
+1\\
+-1\\
+1
+\end{array} \right) + \beta_{3} \left(
+\begin{array}{c} 
+1\\ 
+-1\\
+-1\\
+1
+\end{array} \right) + \beta_{4} \left(
+\begin{array}{c} 
+1\\ 
+1\\
+1\\
+-1
+\end{array} \right),\\
+при\ \lambda = 1,\ \beta_{i} >= 0,\ i = \overline{1, 4};\\
+$
